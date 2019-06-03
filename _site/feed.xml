@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/JekyllTheme-ProjectGaia/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/JekyllTheme-ProjectGaia/" rel="alternate" type="text/html" /><updated>2019-06-03T16:31:56+08:00</updated><id>http://localhost:4000/JekyllTheme-ProjectGaia/feed.xml</id><title type="html">Project-Gaia</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Lightbox Demo</title><link href="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/05/lightboxdemo.html" rel="alternate" type="text/html" title="Lightbox Demo" /><published>2017-02-05T00:00:00+08:00</published><updated>2017-02-05T00:00:00+08:00</updated><id>http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/05/lightboxdemo</id><content type="html" xml:base="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/05/lightboxdemo.html">&lt;p&gt;Try clicking below pics….&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/1.jpg&quot; alt=&quot;&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/2.jpg&quot; alt=&quot;&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/3.jpg&quot; alt=&quot;&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/4.jpg&quot; alt=&quot;&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><category term="intro" /><category term="tag1" /><category term="tag2" /><summary type="html">Try clicking below pics….</summary></entry><entry><title type="html">Jekyll Theme - Project Gaia</title><link href="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/05/helloworld.html" rel="alternate" type="text/html" title="Jekyll Theme - Project Gaia" /><published>2017-02-05T00:00:00+08:00</published><updated>2017-02-05T00:00:00+08:00</updated><id>http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/05/helloworld</id><content type="html" xml:base="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/05/helloworld.html">&lt;h2 id=&quot;desc&quot;&gt;Desc&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This post is only for demo, some contents may be archived.&lt;/p&gt;
+
+  &lt;p&gt;Please check document for newest details:  &lt;a href=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia-Docs/#/&quot;&gt; Document&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;update-history&quot;&gt;Update History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;May 30th, 2017
+Added a reading progressbar for post page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;May 6th, 2017
+Updated font page
+Added global font style&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;April 3nd, 2017
+Added new font&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mar 5th, 2017
+Updated style&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mar 1st, 2017
+Updated TOC plugin&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Feb 28th, 2017
+Rebuild to include &lt;strong&gt;Bootstrap 4-Alpha&lt;/strong&gt; and &lt;strong&gt;JQuery 3&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;desc-1&quot;&gt;Desc&lt;/h2&gt;
+
+&lt;p&gt;This is a personal blog source code.&lt;/p&gt;
+
+&lt;p&gt;The theme name is ‘Project Gaia’, cuz I have another under building project named ‘Project Uranus’ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o&lt;/p&gt;
+
+&lt;p&gt;repo link: &lt;a href=&quot;https://github.com/szhielelp/JekyllTheme-ProjectGaia&quot;&gt;szhielelp/JekyllTheme-ProjectGaia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;post-example&quot;&gt;Post Example&lt;/h2&gt;
+
+&lt;p&gt;Here is a post example&lt;/p&gt;
+
+&lt;p&gt;[Please check the code in Markdown]&lt;/p&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;h3 id=&quot;syntaxhighlighter&quot;&gt;SyntaxHighlighter&lt;/h3&gt;
+
+&lt;p&gt;Realized with this repo: &lt;a href=&quot;https://github.com/syntaxhighlighter/syntaxhighlighter&quot;&gt;    syntaxhighlighter/syntaxhighlighter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Usage(include necessary CSS and JS and run &lt;strong&gt;SyntaxHighlighter.all()&lt;/strong&gt;):&lt;/p&gt;
+
+&lt;pre class=&quot;brush: html&quot;&gt;
+      SyntaxHighlighter.all();
+&lt;/pre&gt;
+
+&lt;p&gt;Here is code snippet example:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: html&quot;&gt;
+    [please check the post markdown here]
+    &lt;ul&gt;
+      &lt;li class=&quot;headerlink&quot;&gt;
+        &lt;a class=&quot;content active&quot;&gt;List&lt;/a&gt;
+        &lt;a class=&quot;link inactived&quot;&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h3&gt;
+
+&lt;p&gt;Realized with this repo: &lt;a href=&quot;https://github.com/jgallen23/toc&quot;&gt;    jgallen23/toc  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/X2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Auto-run when page loaded.&lt;/p&gt;
+
+&lt;h3 id=&quot;md-post-header-collapse&quot;&gt;md-post-header-collapse&lt;/h3&gt;
+
+&lt;p&gt;Realized with this repo: &lt;a href=&quot;https://github.com/szhielelp/md-post-header-collapse&quot;&gt;    szhielelp/md-post-header-collapse  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Run &lt;strong&gt;$.headerCollapseRobot()&lt;/strong&gt; after post loaded.&lt;/p&gt;
+
+&lt;pre class=&quot;brush: js&quot;&gt;
+    /*header collapsible example*/
+    $.headerCollapseRobot(
+      arr_Id_CollapseEnds =  new Array(&quot;end&quot;),                       
+      arr_Collapsible_Tag = new Array(&quot;H1&quot;,&quot;H2&quot;,&quot;H3&quot;),                       
+      arr_ExcludeElemPrefix_InCollapsible  = new Array(&quot;comment-&quot;),      
+      arr_ExcludeElemPrefix_InCollapsing = new Array(&quot;sidebar-toc-Ik4D-&quot;)
+    )
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/X1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can try clicking on the icons near titles.&lt;/p&gt;
+
+&lt;h3 id=&quot;stickie-post&quot;&gt;Stickie Post&lt;/h3&gt;
+
+&lt;p&gt;Just put a attribute in header of the specific post:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: html; highlight: [5]&quot;&gt;
+layout: post
+title: blablablalala
+category : Comic
+tags : [Comic, 10101]
+stickie: true
+&lt;/pre&gt;
+
+&lt;p&gt;Then current post will show ahead of other posts.&lt;/p&gt;
+
+&lt;h3 id=&quot;reading-progressbar&quot;&gt;Reading Progressbar&lt;/h3&gt;
+
+&lt;p&gt;Inspired from &lt;a href=&quot;http://es6.ruanyifeng.com/#docs/promise&quot;&gt;http://es6.ruanyifeng.com/#docs/promise&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/X4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It will show your reading progress for current post.&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><category term="intro" /><category term="tag1" /><category term="tag2" /><summary type="html">Desc</summary></entry><entry><title type="html">Stickie Post</title><link href="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/03/demopost4.html" rel="alternate" type="text/html" title="Stickie Post" /><published>2017-02-03T00:00:00+08:00</published><updated>2017-02-03T00:00:00+08:00</updated><id>http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/03/demopost4</id><content type="html" xml:base="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/03/demopost4.html">&lt;h2 id=&quot;demo-post&quot;&gt;Demo Post&lt;/h2&gt;
+
+&lt;p&gt;Texts here….&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><category term="intro" /><category term="tag1" /><category term="tag2" /><summary type="html">Demo Post</summary></entry><entry><title type="html">Demo Post</title><link href="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/02/demopost2.html" rel="alternate" type="text/html" title="Demo Post" /><published>2017-02-02T00:00:00+08:00</published><updated>2017-02-02T00:00:00+08:00</updated><id>http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/02/demopost2</id><content type="html" xml:base="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/02/demopost2.html">&lt;h2 id=&quot;demo-post&quot;&gt;Demo Post&lt;/h2&gt;
+
+&lt;p&gt;Texts here….&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><category term="intro" /><category term="tag1" /><category term="tag2" /><summary type="html">Demo Post</summary></entry><entry><title type="html">Demo Post</title><link href="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/01/demopost.html" rel="alternate" type="text/html" title="Demo Post" /><published>2017-02-01T00:00:00+08:00</published><updated>2017-02-01T00:00:00+08:00</updated><id>http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/01/demopost</id><content type="html" xml:base="http://localhost:4000/JekyllTheme-ProjectGaia/intro/2017/02/01/demopost.html">&lt;h2 id=&quot;demo-post&quot;&gt;Demo Post&lt;/h2&gt;
+
+&lt;p&gt;Texts here….&lt;/p&gt;</content><author><name></name></author><category term="Intro" /><category term="intro" /><category term="tag1" /><category term="tag2" /><summary type="html">Demo Post</summary></entry></feed>
