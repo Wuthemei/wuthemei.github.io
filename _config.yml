@@ -1,7 +1,7 @@
 
 # Site settings
-title: Edition Alphas ' Lab
-email:
+title: The Lab of Alpha-Ray(Edition α)
+email: themeiwu@hotmail.com
 description: > # this means to ignore newlines until "baseurl"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -10,11 +10,11 @@ baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: themeiwu
+email: themeiwu@hotmail.com
+facebook_username: themeiwu
+twitter_username: piao24901
+github_username:  Wuthemei
 address:
   - line:
   - line:
