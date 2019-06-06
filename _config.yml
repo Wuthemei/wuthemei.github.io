@@ -12,15 +12,15 @@ url: "" # the base hostname & protocol for your site
 # User setting
 owner: themeiwu
 email: themeiwu@hotmail.com
-facebook_username: themeiwu
-twitter_username: piao24901
+facebook_username: 
+twitter_username: 
 github_username:  Wuthemei
 address:
   - line:
   - line:
   # Feel free to add more lines here 
 telephone:
-copyright:
+copyright:themeiwu.com
 
 # API settings
 google_api_key:
