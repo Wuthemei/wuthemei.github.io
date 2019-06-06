@@ -30,8 +30,3 @@ markdown: kramdown
 # toc_levels: 1..2
 gems: [jekyll-paginate]
 paginate: 5
-
-#comments
-layout: default
-comments: true
-# other options
