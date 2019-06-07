@@ -53,10 +53,14 @@
                             <h4><strong>这就是生活</strong></h4>
                         </div>
                         <p>C' est La Vie!</p>
-                      <a href="/%E6%8A%80%E6%9C%AF%E6%98%AF%E4%BB%80%E4%B9%88/2019/06/07/Aloha.html">
-          <span class="badge badge-secondary">Aloha</span>
-        </a>
-        <br>
+                           <li class="ant-timeline-item">
+                                <div class="ant-timeline-item-content">
+                                    <span class="badge badge-danger">{{ post.date | date: "%Y-%m-%d" }} </span>
+                                    <div class="d-flex align-items-center post-title">
+                                     <a class="post-link text-danger h5 text-danger" href="{{site.url}}{{site.baseurl}}{{ post.url}}/tech">{{ post.title }}</a>
+                                    </div>
+                                </div>
+                            </li>
                         <div class="page-header" id="archives">
                             <h4><strong>技术是什么</strong></h4>
                         </div>
