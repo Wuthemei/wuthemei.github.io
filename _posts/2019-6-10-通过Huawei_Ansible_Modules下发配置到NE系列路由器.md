@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ansible连接华为NE设备实现通过Modules下发命令
+title: 通过Huawei_Ansible_Modules下发配置到NE系列路由器
 category : 技术日志
 tags : [tech, ansible, Huawei]
 ---
@@ -8,9 +8,7 @@ tags : [tech, ansible, Huawei]
 >
 >在Github上发现了华为官方发布的Modules Package，但是此Package是基于CE系列数据中心交换机开发的，而公司现网使用的是华为NE系列设备。
 >
->考虑到每个厂商的命令体系结构基本相同，遂决定将CE Package安装到Ansible server中，尝试对NE设备下发配置命令。
->
->整理此文档记录操作过程。
+>考虑到每个厂商的命令体系结构基本相同，遂决定将CE Package安装到Ansible server中，尝试使用ce_command对NE设备下发配置命令。
 >
 
 ## 环境
