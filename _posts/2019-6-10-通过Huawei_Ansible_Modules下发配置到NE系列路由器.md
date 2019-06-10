@@ -2,7 +2,7 @@
 layout: post
 title: 通过Huawei_Ansible_Modules下发配置到NE系列路由器
 category : 技术日志
-tags : [tech, ansible, Huawei]
+tags : [tech, ansible, huawei]
 ---
 >关于Ansible如何连接Huawei NE设备，目前还没有官方或非官方的详细说明文档。
 >
@@ -78,7 +78,9 @@ user-interface vty 0 4
 ## 测试反馈&结果
 在Ansible server输入测试命令
 
-[root@localhost ~]# ansible -m ce_command -a "commands='display ip int bri' transport='cli' host=10.248.129.131 port=22 username=apsatcom password=P@55w0rd"! localhost --connection local
+[root@localhost ~]# ansible -m ce_command -a "commands='display vlan bri' transport='cli' host=10.248.129.131 port=22 username=XXXXX password=10ettr"! localhost --connection local
+
+//此处注意，如果将！放到“”内的话，server会提示“-bash: !": event not found”。
 
 ### 反馈
 
