@@ -25,27 +25,27 @@ Hwawei NE20E路由器
 
 #### 安装python-devel
 
-yum install python-devel
+ [root@localhost ~]#yum install python-devel
 
 #### 安装pip&ansible&ncclient
 
-wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py
+ [root@localhost ~]#wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py
 
-pip install ansible==2.2
+ [root@localhost ~]#pip install ansible==2.2
 
 //官方建议安装2.2版本，更高版本安装实测有问题，据说“需要加export ANSIBLE_HOST_KEY_CHECKING=false参数”，未考证。
 
-pip install ncclient
+ [root@localhost ~]#pip install ncclient
 
 #### 下载并安装CE_Ansible模块
 
-wget https://github.com/HuaweiSwitch/CloudEngine-Ansible/archive/v0.2.0.zip
+ [root@localhost ~]#wget https://github.com/HuaweiSwitch/CloudEngine-Ansible/archive/v0.2.0.zip
 
-unzip v0.2.0.zip
+ [root@localhost ~]#unzip v0.2.0.zip
 
-cd CloudEngine-Ansible-0.2.0/
+ [root@localhost ~]#cd CloudEngine-Ansible-0.2.0/
 
-sh install.sh
+ [root@localhost ~]#sh install.sh
 
 //至此Ansible server环境准备结束。
 
