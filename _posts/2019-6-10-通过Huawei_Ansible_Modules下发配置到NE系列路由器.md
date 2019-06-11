@@ -6,9 +6,9 @@ tags : [tech, ansible, huawei]
 ---
 >关于Ansible如何连接Huawei NE设备，目前还没有官方或非官方的详细说明文档。
 >
->在Github上发现了华为官方发布的Modules Package，但是此Package是基于CE系列数据中心交换机开发的，而公司现网使用的是华为NE系列设备。
+>在Github上发现了华为官方发布的Modules Package，但是此Package基于华为CE系列数据中心交换机开发，而公司现网使用的是华为NE系列设备。
 >
->考虑到每个厂商的命令体系结构基本相同，遂决定将CE Package安装到Ansible server中，尝试使用ce_command对NE设备下发配置命令。
+>考虑到每个厂商的命令体系结构基本相同，遂决定将CE Package安装到Ansible server中，尝试使用ce_command对NE设备下发配置命令，此文记录测试过程。
 >
 
 ## 环境
