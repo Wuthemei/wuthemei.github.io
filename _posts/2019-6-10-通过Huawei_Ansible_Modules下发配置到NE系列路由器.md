@@ -84,7 +84,7 @@ user-interface vty 0 4
 
 ### 反馈
 
-![](   https://themeiwu.com/img/tech/20190610tech01.PNG){: width="200px"}
+![](   https://themeiwu.com/img/tech/20190610tech01.PNG){: width="400px"}
 
 ### 结果
 
