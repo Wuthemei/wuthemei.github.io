@@ -25,7 +25,9 @@ Hwawei NE20E路由器
 
 ### 修改Ansible Inventory
 
-Ansible Inventory即Ansible的hosts文件，所有需要使用Ansible管理的Clients都需要被记录在Inventory中，在保证所有信息记录准确的情况下，记录的格式可以有多种方式，在编写Playbook时，需要在细节上配合Inentory的记录格式。引用Ansible官网的说法：
+Ansible Inventory即Ansible的hosts文件，所有需要使用Ansible管理的Clients都需要被记录在Inventory中，在保证所有信息记录准确的情况下，记录的格式可以有多种方式，在编写Playbook时，需要在细节上配合Inentory的记录格式。引
+
+用Ansible官网的说法：
 The inventory file can be in one of many formats, depending on the inventory plugins you have. For this example, the format for /etc/ansible/hosts is an INI-like (one of Ansible’s defaults) and looks like this:
 <pre class="brush: cpp">
 mail.example.com
