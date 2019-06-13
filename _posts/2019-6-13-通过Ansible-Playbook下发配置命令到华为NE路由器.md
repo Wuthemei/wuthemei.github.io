@@ -97,7 +97,7 @@ layer3-subscriber start_ip end_ip vpn-instance VPN110_Internet_GIS_Charge domain
 执行剧本：
 <pre class="brush: cpp; highlight: [1]">
 ansible-playbook -e "a_ip=1.1.1.1 z_ip=1.1.1.2" bas_add_ip_segments.yml
-<pre>
+</pre>
 在执行剧本任务时，使用 -e 可后缀需要传递到剧本内的参数。
 ### 反馈
 
