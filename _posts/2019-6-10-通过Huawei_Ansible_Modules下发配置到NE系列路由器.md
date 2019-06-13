@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 通过Huawei_Ansible_Modules下发配置到NE系列路由器
+title: 通过Ansible-Modules下发配置到华为NE系列路由器
 category : 技术日志
 tags : [tech, ansible, huawei]
 ---
