@@ -9,6 +9,8 @@ tags : [tech, ansible, Huawei]
 >本篇主要说明如何以Ansible-Playbook（剧本）的方式推配置到华为设备。
 >
 >P.S.不得不说，一直偷懒一直爽啊。
+
+
 ## 万年不变的环境
 
 Centos7（Ansible server）
