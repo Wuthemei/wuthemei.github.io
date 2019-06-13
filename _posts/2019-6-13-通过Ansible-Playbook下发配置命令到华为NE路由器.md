@@ -2,7 +2,7 @@
 layout: post
 title: 通过Ansible-Playbook下发配置命令到华为NE路由器
 category : 技术日志
-tags : [tech, ansible, Huawei]
+tags : [tech, ansible]
 ---
 >接上篇，周一配置完基础环境后，周二偷了一天懒，周三又开了一天会，所以直到今天（周四）才开始推进工作。
 >
