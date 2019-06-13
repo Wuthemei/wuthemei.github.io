@@ -2,7 +2,7 @@
 layout: post
 title: 通过Ansible-Modules下发配置到华为NE系列路由器
 category : 技术日志
-tags : [tech, ansible, huawei]
+tags : [tech, ansible]
 ---
 >关于Ansible如何连接Huawei NE设备，目前还没有官方或非官方的详细说明文档。
 >
