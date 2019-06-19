@@ -7,7 +7,7 @@ $(function(){
 
     var iframe = document.createElement('iframe');
     iframe.id="bgm";
-    iframe.style = "position: absolute; top: 40px; left: 0px; border: 0px;";
+    iframe.style = "position: absolute; top: 0px; left: 0px; border: 0px;";
     iframe.src = '//music.163.com/outchain/player?type=2&id=' +arrMusicID[musicID]+ '&auto=1&height=32';
     console.log(iframe.src)
     iframe.frameborder="no";
