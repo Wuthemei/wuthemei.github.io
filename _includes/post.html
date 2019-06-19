@@ -12,7 +12,12 @@
                     </h1>
                     {{ page.date | date: "%Y-%m-%d" }}
                 </div>
+                 <div class="row">
+    <div class="col-md-12">
+        <div id="disqus_thread"></div>
                 <script src="{{site.url}}{{site.baseurl}}/js/bgm.js"></script>
+        </div>
+                     </div>
                 {{ page.content | markdownify }}
 
                 <!-- don't delete this div, this is marked as the end position of collapse plugin  -->
