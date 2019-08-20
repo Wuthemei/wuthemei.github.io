@@ -139,5 +139,4 @@ chroot_local_user=YES
 
 ## 参考资料
 
-[解决vsftpd 读取目录列表失败的问题]
-(https://blog.csdn.net/zhuchuanwan/article/details/52910719)
+[解决vsftpd 读取目录列表失败的问题](https://blog.csdn.net/zhuchuanwan/article/details/52910719)
