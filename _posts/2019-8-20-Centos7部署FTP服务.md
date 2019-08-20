@@ -7,13 +7,13 @@ tags : [tech, centos, ftp]
 
 >Centos部署ftp server，记录过程。
 
-## 环境
+### 环境
 
 Centos 7
 
 vsftpd(vsftpd.x86_64 : Very Secure Ftp Daemon)
 
-## 过程
+### 过程
 
 #搜安装源&安装
 
@@ -32,7 +32,7 @@ Name and summary matches only, use "search all" for everything.
 
 [root@ApsatcomLookingGlass ~]# yum install vsftpd.x86_64
 </pre>
-#服务器环境配置
+##服务器环境配置
 
 主要是防火墙配置。
 
@@ -52,7 +52,7 @@ Name and summary matches only, use "search all" for everything.
 [root@ApsatcomLookingGlass ~]#firewall-cmd --reload
 </pre>
 
-#修改配置文件
+##修改配置文件
 
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#vi /etc/vsftpd/vsftpd.conf
@@ -64,45 +64,45 @@ anonymous_enable=NO
 禁止切换根目录 删除#
 chroot_local_user=YES
 
-#创建用户
+##创建用户
 
-新建用户名&密码
+-新建用户名&密码
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#useradd -d /root/Network_Backup/ -g ftp -s /sbin/nologin XXXXXXX
 [root@ApsatcomLookingGlass ~]#passwd XXXXXXX
 </pre>
 
-限制特定用户只能通过FTP访问服务器
+-限制特定用户只能通过FTP访问服务器
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#usermod -s /sbin/nologin XXXXXXX
 </pre>
 
-创建用户目录
+-创建用户目录
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#mkdir -p /data/ftp/pub
 [root@ApsatcomLookingGlass ~]#chmod a-w /data/ftp && chmod 777 -R /data/ftp/pub
 [root@ApsatcomLookingGlass ~]#usermod -d /data/ftp XXXXX
 </pre>
 
-#其他操作
+##其他操作
 
-关闭SELinux服务
+-关闭SELinux服务
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#setenforce 0
 </pre>
 
-关闭防火墙
+-关闭防火墙
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#iptables -F
 </pre>
 
-#重启vsftpd服务
+##重启vsftpd服务
 <pre class="brush: cpp">
 [root@ApsatcomLookingGlass ~]#service vsftpd start
 </pre>
 至此安装结束。
 
-##修修补补
+###修修补补
 
 根据过往经验，安装完成后一般是不能正常使用的，这次也一样。
 
