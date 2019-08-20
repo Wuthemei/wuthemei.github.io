@@ -119,3 +119,25 @@ chroot_local_user=YES
 5.如果没有信息，则修改/etc/pam.d/vsftpd文件，注释掉auth required pam_shells.so
 
 6.以上完成后，重启服务。
+
+## PLUS
+
+后来的后来……
+
+发现Windows下filezilla client连接有问题，账号密码认证通过，但是不能读取目录，具体提示：
+<pre class="brush: cpp">
+命令:    LIST
+错误:    连接超时
+错误:    读取目录列表失败
+</pre>
+
+该错误是由iptables的配置引起的，临时的解决方法是执行如下命令：
+
+<pre class="brush: cpp">
+[root@ApsatcomLookingGlass ~]# modprobe ip_nat_ftp
+</pre>
+
+## 参考资料
+
+[解决vsftpd 读取目录列表失败的问题]
+(https://blog.csdn.net/zhuchuanwan/article/details/52910719)
