@@ -55,24 +55,31 @@ route-map s400 permit 30
 ### 配置
 
 R1:
+
 ![](   https://themeiwu.com/img/tech/0901R1.PNG){: width="800px"}
 
 R2
+
 ![](   https://themeiwu.com/img/tech/0901R2.PNG){: width="800px"}
 
 R3
+
 ![](   https://themeiwu.com/img/tech/0901R3.PNG){: width="800px"}
 
 R4
+
 ![](   https://themeiwu.com/img/tech/0901R4.PNG){: width="800px"}
 
 R5
+
 ![](   https://themeiwu.com/img/tech/0901R5.PNG){: width="800px"}
 
 R6
+
 ![](   https://themeiwu.com/img/tech/0901R6.PNG){: width="800px"}
 
 ### 结论
 
 AS100中所有router的路由表中关于prefix100/200.1.1.0/24的下一跳是R5
+
 ![](   https://themeiwu.com/img/tech/0901RR4.PNG){: width="800px"}
