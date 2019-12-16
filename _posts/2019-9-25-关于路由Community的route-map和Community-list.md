@@ -2,7 +2,7 @@
 layout: post
 title: 基于BGP Community和Route-map控制路由
 category : 技术日志
-tags : [tech, route-map, community]
+tags : [tech, route-map, community, BGP]
 ---
 
 >route-map打community，community-list匹配做过滤实验，记录过程
