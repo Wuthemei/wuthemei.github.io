@@ -78,7 +78,7 @@ R6
 
 ![](   https://themeiwu.com/img/tech/0901R6.PNG){: width="800px"}
 
-### 结论
+## 结论
 
 AS100中所有router的路由表中关于prefix100/200.1.1.0/24的下一跳是R5
 
