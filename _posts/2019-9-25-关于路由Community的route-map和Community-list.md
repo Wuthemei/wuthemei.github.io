@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于路由Community的route-map和Community-list
+title: 基于BGP Community和Route-map控制路由
 category : 技术日志
 tags : [tech, route-map, community]
 ---
