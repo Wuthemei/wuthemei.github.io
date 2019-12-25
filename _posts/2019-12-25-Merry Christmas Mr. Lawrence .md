@@ -45,6 +45,6 @@ tags : [life, music]
 
 就像在这曲目下的某条评论：能哭着吃完饭的人应该能好好活下去吧
 
-嗯，
+嗯，能听完这一曲没有情状的失态，也应该还好吧
 
 Merry Christmas Mr. Lawrence
