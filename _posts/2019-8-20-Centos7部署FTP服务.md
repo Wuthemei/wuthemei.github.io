@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CeotOS7部署FTP服务
+title: CentOS7部署FTP服务
 category : 技术日志
 tags : [tech, centos, ftp]
 ---
