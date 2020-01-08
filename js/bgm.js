@@ -1,5 +1,5 @@
 $(function(){
-    arrMusicID = [4394416,1091088,26875199,27723552,26090100,26193921,306709,5299097,31062378,139443,29984086,155924,432430716];  //musicID array
+    arrMusicID = [4394416,1091088,26875199,317356,27723552,26090100,26193921,306709,5299097,31062378,139443,29984086,155924,432430716];  //musicID array
     musicID = Math.floor(Math.random()*(arrMusicID.length)) //get a ran num as index
     $('body').css('height',document.documentElement.clientHeight -5);
 
