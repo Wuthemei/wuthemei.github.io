@@ -1,4 +1,8 @@
 
+---
+---
+
+@import "headBackground";
 
 #jumbotron {
   background: url($headBackground) no-repeat center center scroll;
@@ -13,5 +17,4 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
-
 
