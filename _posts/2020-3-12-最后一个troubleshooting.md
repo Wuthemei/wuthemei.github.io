@@ -84,25 +84,25 @@ acl advanced 3002
 
 用户业务流量在香港落地进入地面网，vrf为 VPN123_Service_SHZH：
 
-![](   https://themeiwu.com/img/tech/tech2020031202.PNG) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031202.PNG){: width="800px"}
 
 流量通过港深专线到达深圳后community id被导入到两个vrf中，分别为：
 
-![](   https://themeiwu.com/img/tech/tech2020031203.PNG) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031203.PNG){: width="800px"}
 
-![](   https://themeiwu.com/img/tech/tech2020031204.PNG) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031204.PNG){: width="800px"}
 
 而vrf VPN110_Internet_GIS_Charge对用户流量通过策略下发了默认路由：
 
-![](   https://themeiwu.com/img/tech/tech2020031205.PNG) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031205.PNG){: width="800px"}
 
-![](   https://themeiwu.com/img/tech/tech2020031206.PNG) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031206.PNG){: width="800px"}
 
 于是本应该流向VPN123_Service_SHZH_HQ的流量流到了VPN110_Internet_GIS_Charge中，导致两端无法通信。
 
 所以需要泄漏路由，添加静态明细路由使其成为优选路径：
 
-![](   https://themeiwu.com/img/tech/tech2020031207.PNG) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031207.PNG){: width="800px"}
 
 至此，所有设备路由正常，通信正常。
 
@@ -110,7 +110,7 @@ acl advanced 3002
 
 终端IP为兴趣流内地址，ping对端成功，测试成功。
 
-![](   https://themeiwu.com/img/tech/tech2020031209.jpg) {: width="800px"}
+![](   https://themeiwu.com/img/tech/tech2020031209.jpg){: width="800px"}
 
 ## 参考
 
