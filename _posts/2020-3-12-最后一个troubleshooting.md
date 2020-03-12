@@ -116,7 +116,7 @@ acl advanced 3002
 
 Case study of H3C TC mail.
 
-## P.S.
+## AND...
 
 Hew，终于解决了这个问题，前后持续将近一个月。
 
